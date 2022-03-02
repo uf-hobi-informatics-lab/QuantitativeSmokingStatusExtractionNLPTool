@@ -2,7 +2,7 @@
 A rule-base NLP system to extract quantitative smoking information (e.g., pack-year) from clinical notes
 
 ## Aim
-The package is used for extraction of smoking information from clinical notes.
+The package is used for extraction of quantitative smoking information from clinical notes.
 
 ## smoking information type
 - pack per day
