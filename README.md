@@ -51,7 +51,11 @@ The output is a TSV with encoding as UTF-8.
 
 ## Citation
 ```
-X. Yang et al., "A Natural Language Processing Tool to Extract Quantitative Smoking Status from Clinical Narratives," 2020 IEEE International Conference on Healthcare Informatics (ICHI), 2020, pp. 1-2, doi: 10.1109/ICHI48887.2020.9374369.
+Yang X, Yang H, Lyu T, Yang S, Guo Y, Bian J, Xu H, Wu Y. 
+A Natural Language Processing Tool to Extract Quantitative Smoking Status from Clinical Narratives.
+2020 IEEE International Conference on Healthcare Informatics (ICHI), 2020, pp. 1-2. 
+doi: 10.1109/ICHI48887.2020.9374369.
+PMID: 33173920; PMCID: PMC7654916.
 
 https://ieeexplore.ieee.org/abstract/document/9374369
 ```
