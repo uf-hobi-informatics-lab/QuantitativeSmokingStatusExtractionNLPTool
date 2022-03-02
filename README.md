@@ -38,8 +38,8 @@ The output is a TSV with encoding as UTF-8.
 1. change to the project directory
 2. run java -jar RuleBaseSmokingInfoExtraction.jar <input file location> <output file1 location> <log location> <rule set name> or use the run.sh (modify arguments necessary)
 
-## Example (you can test system using the sample_idr.csv)
-you can run java -jar RuleBaseSmokingInfoExtraction.jar sample_idr.csv sample_output1.tsv log.txt smoke
+## Example
+- we provide sample.csv for testing, see run.sh
 
 ## Note
 - this is a rule-based system
