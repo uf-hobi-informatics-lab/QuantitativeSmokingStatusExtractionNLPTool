@@ -1,0 +1,9 @@
+SMOKE_YAER:
+
+expression="smoking[ ]*(about)?[ ]*(for the past)*[ ]*(%Num)[ ]*%SmokeYear",val="group(3)SY"
+expression="%Num[ ]*(%PackPerDay|%PackPerYear)[ ]*(X|x|for)?[ ]*(%Num)[ ]*%SmokeYear",val="group(6)SY"
+expression="%PackPerDay[ ]*:[ ]*%Num[ ]*.?[ ]*%SmokeYear[ ]*:[ ]*(%Num)",val="group(4)SY"
+expression="smoked[ ]*cocaine[ ]*for[ ]*%Num[ ]*%SmokeYear",val="group(1)SY"
+
+
+

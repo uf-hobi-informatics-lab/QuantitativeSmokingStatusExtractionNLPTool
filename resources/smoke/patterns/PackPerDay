@@ -1,0 +1,12 @@
+PackPerDay:
+
+PPD|ppd
+[P|p]ack[s]?[ ]*/[ ]*day
+[P|p]acks per day
+[P|p]ack per day
+pack a day
+pack last[s]? approximately three day[s]?
+pack last[s]? approximately four day[s]?
+pack last[s]? approximately five day[s]?
+pack that last[s]? [3-9][ ]*days
+pack last[s]? [3-9][ ]*days

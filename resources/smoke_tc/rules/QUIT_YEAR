@@ -1,0 +1,14 @@
+QUIT_YEAR:
+
+expression="(%quit)[ ]*(%Num)[ ]*%QuitYear",val="group(3)QY"
+expression="(%quit)[ ]*(for|about|smoking|around|approx)[ ]*(%Num)[ ]*%QuitYear",val="group(4)QY"
+expression="quit[e]?[ ]*(smoking|tobacco|cigarettes)[ ]*[>]?[ ]*(%Num)[ ]*%QuitYear",val="group(2)QY"
+expression="quit[e]?[ ]*(smoking|tobacco|cigarettes)[ ]*(about|around)[>]?[ ]*(%Num)[ ]*%QuitYear",val="group(3)QY"
+expression="quit[e]?[ ]*(%Num)[ ]*%QuitYear",val="group(1)QY"
+expression="Smoking[ ]*History[ ]*:%Num[ ]*%PakYear[ ]*,[ ]*quit[ ]*(%Num)[ ]*%QuitYear",val="group(1)QY"
+expression="tobacco[ ]*use[ ]*\([ ]*quit[ ]*[~]?[ ]*(%Num)[ ]*%QuitYear[ ]*\)",val="group(1)QY"
+expression="quit[ ]*smokeless[ ]*tobacco[ ]*use[ ]*about[ ]*(%Num)[ ]*%QuitYear",val="group(1)QY"
+expression="years[ ]*since[ ]*quitting[ ]*:[ ]*(%Num)",val="group(1)QY"
+expression="years[ ]*(not|stop|stopped)[ ]*smoking[ ]*:[ ]*(%Num)",val="group(2)QY"
+expression="(not|stop|stopped)[ ]*smoking[ ]*(%Num)[ ]*%QuitYear",val="group(2)QY"
+

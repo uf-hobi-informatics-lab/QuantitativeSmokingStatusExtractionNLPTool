@@ -1,0 +1,4 @@
+STARTYEAR:
+
+//expression="since[ ]*(%qay)",val="group(1)YS"
+//expression="start date[ ]*[:]*[ ]*(%qay)",val="group(1)YS"

@@ -1,0 +1,4 @@
+CIGS:
+
+expression="(%Num)[ ]*(%cigs)",val="group(1)CG"
+expression="(%cigs)[ ]*(%Num)[ ]*time[s]?",val="group(3)CG"

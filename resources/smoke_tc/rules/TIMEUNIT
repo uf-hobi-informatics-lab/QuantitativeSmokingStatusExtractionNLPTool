@@ -1,0 +1,4 @@
+TIMEUNIT:
+
+expression="(%Num)[ ]*(%cigs)[ ]*(%timeunit)",val="group(5)TU"
+expression="(%cigs)[ ]*(%Num)[ ]*time[s]?[ ]*(%timeunit)",val="group(5)TU"

@@ -1,0 +1,4 @@
+NEGATION:
+
+//expression="(%negation)[ ]*(%action)",val="group(1)NG"
+//expression="(%negation)[ ]*(%action)",val="group(1)NG"

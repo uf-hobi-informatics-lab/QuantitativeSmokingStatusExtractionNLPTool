@@ -1,0 +1,14 @@
+timeunit:
+
+per day
+/[ ]*day
+daily
+a day
+per week
+/[ ]*wk
+weekly
+every[ ]*[1-9]+[ ]*days
+everyday
+everday
+this month
+this week

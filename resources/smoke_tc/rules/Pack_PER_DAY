@@ -1,0 +1,5 @@
+PACK_PER_DAY:
+
+expression="(%Num)[ ]*%PackPerDay",val="group(1)PPD"
+expression="(a)[ ]*%PackPerDay",val="group(1)PPD"
+expression="%PackPerDay[ ]*:[ ]*(%Num)",val="group(2)PPD"

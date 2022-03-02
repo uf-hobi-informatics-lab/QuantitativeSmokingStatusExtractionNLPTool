@@ -1,0 +1,12 @@
+PakYear:
+[ ]py
+[ ]PY
+pack[ ]*year[:]?
+pack[ ]*years[:]?
+pack[ ]*-[ ]*year[:]?
+pack[ ]*-[ ]*years[:]?
+pk[ ]*year[s]?
+pk[ ]*yr[s]?
+pack[ ]*smoking[ ]*hx
+Pack[ ]*years[:]?
+Pack[ ]*Years[ ]*

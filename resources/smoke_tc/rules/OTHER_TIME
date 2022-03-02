@@ -1,0 +1,4 @@
+OTHER_TIME:
+
+expression="quit[ ]*smoking[ ]about[ ]*(%Num[ ]*%OtherTime)",val="group(1)OT"
+expression="%Num[ ]*%PakYear[ ]*hx[ ]*,[ ]*quit[ ]*(%Num[ ]*%OtherTime)",val="group(3)OT"

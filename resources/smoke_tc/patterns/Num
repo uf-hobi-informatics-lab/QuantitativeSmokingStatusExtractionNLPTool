@@ -1,0 +1,18 @@
+Num:
+\d+\.?[\d+]*[ ]*[\+]?
+\d+\.?[\d+]*[ ]*-[ ]*\d+\.?[\d+]*[ ]*
+\d+[ ]*-[ ]*\d+
+[ ]\.[\d+]*[ ]*
+[ ]\d+[ ]*/[ ]*\d+
+A[ ]
+a[ ]
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten

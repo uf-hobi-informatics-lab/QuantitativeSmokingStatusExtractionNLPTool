@@ -1,0 +1,8 @@
+PAK_YEAR:
+
+expression="(%Num)[ ]*%PakYear",val="group(1)PY"
+expression="(%Num)[ ]*-[ ]*%PakYear",val="group(1)PY"
+expression="%PakYear[ ]*(%Num)[ ]",val="group(2)PY"
+expression="(%Num)[ ]*\(actual number\)[ ]*%PakYear",val="group(1)PY"
+expression="(%Num)[ ]*(year)*[ ]*%PakYear",val="group(1)PY"
+expression="(%Num)[ ]*(plus)*[ ]*%PakYear",val="group(1)PY"

@@ -1,0 +1,14 @@
+QUIT_YEAR:
+
+expression="qui[i]?t[e]?[ ]*(smoking|tobacco)[ ]*[>]?[ ]*(%Num)[ ]*%QuitYear",val="group(2)QY"
+expression="qui[i]?t[e]?[ ]*(smoking|tobacco)[ ]*(about|around)[>]?[ ]*(%Num)[ ]*%QuitYear",val="group(3)QY"
+expression="qui[i]?t[e]?[ ]*(%Num)[ ]*%QuitYear",val="group(1)QY"
+expression="smoking[ ]*History[ ]*:%Num[ ]*%PakYear[ ]*,[ ]*quit[ ]*(%Num)[ ]*%QuitYear",val="group(1)QY"
+expression="tobacco[ ]*use[ ]*\([ ]*quit[ ]*[~]?[ ]*(%Num)[ ]*%QuitYear[ ]*\)",val="group(1)QY"
+expression="qui[i]?t[e]?[ ]*smokeless[ ]*tobacco[ ]*use[ ]*about[ ]*(%Num)[ ]*%QuitYear",val="group(1)QY"
+expression="[Y|y]ears[ ]*since[ ]*quitting[ ]*:[ ]*(%Num)",val="group(1)QY"
+expression="[Y|y]ears[ ]*not[ ]*smoking[ ]*:[ ]*(%Num)",val="group(1)QY"
+expression="years[ ]*(not|stop|stopped)[ ]*smoking[ ]*:[ ]*(%Num)",val="group(2)QY"
+expression="(not|stop|stopped)[ ]*smoking[ ]*(%Num)[ ]*%QuitYear",val="group(2)QY"
+expression="(smoke|smoker|smoking|smoked|ppd|pack a day)[ ]*.{1,30}[ ]*(quit|stop)[ ]*(about)?[ ]*(%Num)[ ]*%QuitYear",val="group(4)QY"
+

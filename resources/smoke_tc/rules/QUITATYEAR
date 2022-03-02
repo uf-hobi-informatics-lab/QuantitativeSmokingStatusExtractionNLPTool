@@ -1,0 +1,6 @@
+QUITATYEAR:
+
+expression="(%quit)[ ]*(\d{4})",val="group(3)YQ"
+expression="(%quit)[ ]*(%qay)",val="group(3)YQ"
+expression="(%quit)[ ]*(smoking|in|on|-|date|approx|by|once|about|again)[ ]*(%qay)",val="group(4)YQ"
+expression="(%quit)[ ]*(smoke|smoking|%cigs)[ ]*(in|on|-|date|approx|by|once|about|again)[ ]*(%qay)",val="group(5)YQ"

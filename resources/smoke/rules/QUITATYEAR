@@ -1,0 +1,11 @@
+QUITATYEAR:
+
+expression="(smoking|smoker|smoke)[ ]*[:|(]*[ ]*quit[ ]*(in|at|on)*[ ]*(%qay)",val="group(3)YQ"
+expression="(%quit)[ ]*(smoking|smoke)[ ]*(in|at|on)[ ]*(%qay)",val="group(5)YQ"
+expression="(smoking|smoker|smoke)[ ]*(.{1,50})[ ]*(quit|quitting)[ ]*(in|at|on)*[ ]*([0-9]{4}|[0-9]{2}[/|-|.][0-9]{4})",val="group(5)YQ"
+expression="(smoking|smoker|smoke)[ ]*(.{1,50})[ ]*(quit|quitting)[ ]*(in|at|on)*[ ]*([0-9]{2}[/|-|.][0-9]{2}[/|-|.][0-9]{4})",val="group(5)YQ"
+expression="(%quit)[ ]*(smoke|smoking|%cigs)[ ]*(in|on|-|date|approx|by|once|about|again)[ ]*(%qay)",val="group(5)YQ"
+
+//expression="quit[ ]*[ ]*(in)*[ ]*(%qay)",val="group(2)YQ"
+//expression="quit[ ]*(date)*[ ]*[:]*[ ]*(%qay)",val="group(2)YQ"
+//expression="(%quit)[ ]*(smoking)[ ]*(%qay)",val="group(4)YQ"
